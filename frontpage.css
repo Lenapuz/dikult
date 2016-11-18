@@ -1,0 +1,51 @@
+h1{
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: gray;
+}
+
+
+.images {
+text-align: center;
+}
+
+.pic{
+  display: inline-block;
+  padding: 2em;
+  margin-top: 3em;
+}
+
+.images .text{
+  text-align: center;
+  position: relative;
+  visibility: hidden;
+
+}
+
+.pic:hover .text{
+  visibility: visible;
+}
+
+.pic {
+    display:inline-block;
+    position: relative;
+}
+
+
+.pic:hover{
+  filter: alpha(opacity=50);
+  background: rgba(76, 175, 80, 0.3);
+}
+ 
+.pic:hover: {
+    opacity: 0;
+}
+
+
+
+
+
