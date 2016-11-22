@@ -1,0 +1,39 @@
+img{
+	width: 100%;
+	max-width: 500px;
+}
+
+body{
+	max-width: 1100px;
+	margin: auto;
+}
+
+@media screen and (max-width: 600px;){
+	body{
+		asdfdfa
+	}
+
+	img{
+		asdasdf
+	}
+}
+
+@media screen and (min-width: 1000px;){
+	body{
+		asdfdfa
+	}
+
+	img{
+		asdasdf
+	}
+}
+
+@media screen and (max-width: 999px; min-height: 601px;){
+	body{
+		asdfdfa
+	}
+
+	img{
+		asdasdf
+	}
+}
