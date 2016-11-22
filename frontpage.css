@@ -1,14 +1,16 @@
+/*banner*/
 h1{
   display: block;
   width: 1000px;
   margin: 0 auto;
 }
 
+/*background*/
 body{
   background-color: #e6e6e6;
 }
 
-
+/*images*/ 
 .images {
 text-align: center;
 }
@@ -35,7 +37,6 @@ text-align: center;
     position: relative;
 }
 
-
 #white:hover{
   filter: alpha(opacity=50);
   background: rgba(255, 255, 153, 0.3);
@@ -59,6 +60,7 @@ text-align: center;
   font-size: 200%;
 }
 
+/*footer - do we want this sh*t?*/
 footer{
   width: 100%;
   padding: 0.5px;
@@ -68,7 +70,31 @@ footer{
 
 }
 
+/*navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 990px;
 
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
 
 
